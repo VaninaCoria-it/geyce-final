@@ -16,6 +16,7 @@ body {
         align-items: center;
         text-align-last: justify;
     }
+
 h1{
     color: #141414; /* Mismo color que fondo, para que no se vea, pero impacteen SEO */
     size-adjust: 1px;
@@ -92,6 +93,13 @@ p {
     display: block
 }
 
+.Texto-Ubicacion{
+    padding: 30px 30px 30px 30px;
+}
+
+.Formulario {
+    text-align: right;
+}
 
 button {
     padding: auto;
