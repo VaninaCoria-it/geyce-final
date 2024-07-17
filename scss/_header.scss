@@ -1,0 +1,35 @@
+header {
+    nav {
+        background-color: $verde-nav;
+        div {
+            img {
+                width: 18%;
+                padding-left: 50px;
+                margin-right: 20px;
+            }
+            button {
+                padding: auto;
+                margin: auto;
+                display: block;
+                align-items: center;
+            }   
+            
+            span {
+                color: black;
+            } 
+            
+            div {
+                background-color: $verde-toggler;
+                font-family: 'Montserrat', sans-serif;  
+                display: inline-block;
+                letter-spacing: 1.5px;
+
+                h5 {
+                    font-size: 1.5rem;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                }
+            }
+        }    
+    }
+}        
