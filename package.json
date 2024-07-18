@@ -1,0 +1,11 @@
+{
+  "name": "geyce-github",
+  "version": "1.0.0",
+  "description": "** Mi Primer Sitio Web: GEYCE **",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
