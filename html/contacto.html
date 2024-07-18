@@ -9,6 +9,19 @@
     <!-- FAVICON -->
     <link rel="icon" href="../images/logo geyce imagen.png">
 
+<!-- Meta Description -->   
+    <meta name="description" content="GEYCE, con más de 40 años de experiencia en la industria y minería, ofrece una amplia gama de motores, reductores, vibradores, transmisiones mecánicas y bombas de agua en Córdoba, Argentina. Somos distribuidores oficiales de STM Italy, GSM, Tramac y Vibromac. Contamos con asesorías personalizadas y un depósito de mil metros cuadrados para entregas rápidas y eficientes.">
+
+<!-- ANIMATE.CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    /> 
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- TITULO -->
     <title>Geyce</title>
 
     <!-- BOOTSTRAP -->
@@ -96,7 +109,7 @@
                     <br>
                 </div>
                 <div class="col">
-                <textarea name="comentarios" id="comentarios" cols="45" rows="15" placeholder="Escribe tu mensaje aquí"></textarea>
+                <textarea class="animate__animated animate__slideInLeft" name="comentarios" id="comentarios" cols="45" rows="15" placeholder="Escribe tu mensaje aquí"></textarea>
                 </div>
             </div>
             <div class="row">
@@ -119,20 +132,23 @@
         <br>
         <div class="container text-center">
             <div class="row">
-              <div class="col">
+            <div class="col">
                 
-              </div>
-              <div class="col">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.661997200323!2d-64.21920402501604!3d-31.340706492595736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299673d48358d%3A0x214ebf879048061d!2sDe%20los%20Latinos%206469%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1717484099784!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-              <div class="col">
-                
-              </div>
             </div>
-          </div>
+            <div data-aos="flip-left" >
+                    <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.661997200323!2d-64.21920402501604!3d-31.340706492595736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943299673d48358d%3A0x214ebf879048061d!2sDe%20los%20Latinos%206469%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1717484099784!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    </div>
+                    </div>
+                <div class="col">
+            </div>
+        </div>
+    </div>
         
-        </section>
-        <section class="Texto-Ubicacion"> 
+    </section>
+
+    <section class="Texto-Ubicacion"> 
         <div class="container-fluid">
             <p>Nos encontramos estratégicamente ubicados en Córdoba, Argentina, lo que nos permite atender eficientemente a nuestros clientes en toda la región. Nuestra sede cuenta con modernas instalaciones y un depósito de mil metros cuadrados, asegurando una gestión ágil y rápida de nuestros productos. </p>
             <p> <strong>Visitanos de lunes a viernes, de 8 a 18 hs, que nuestro equipo estará encantado de atenderte y brindarte el mejor servicio. 
@@ -164,10 +180,13 @@
         <hr> 
         <h4 class="Copyright"> © Copyright 2024 - GEYCE - Realizado por Vanina Coria </h4>
 
-        <!-- script bootstrap -->
+<!-- script bootstrap -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+<!-- script AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
         
     </body>
     
