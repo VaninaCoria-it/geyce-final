@@ -1,35 +1,65 @@
-header {
-    nav {
-        background-color: $verde-nav;
-        div {
-            img {
-                width: 18%;
-                padding-left: 50px;
-                margin-right: 20px;
-            }
-            button {
-                padding: auto;
-                margin: auto;
-                display: block;
-                align-items: center;
-            }   
-            
-            span {
-                color: black;
-            } 
-            
-            div {
-                background-color: $verde-toggler;
-                font-family: 'Montserrat', sans-serif;  
-                display: inline-block;
-                letter-spacing: 1.5px;
+header{
+    width: 100%;
 
-                h5 {
-                    font-size: 1.5rem;
-                    letter-spacing: 1px;
-                    font-weight: bold;
+    .navbar{
+        background-color: $verde-nav-footer;
+        height: 6rem;
+
+        .navbar-fixed-top {
+            background-color:$verde-nav-footer; /* Color de fondo del navbar */
+            width: 100%;
+
+            .container-fluid {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .logo-nav {
+                    width: 190px;
+                    padding-left: 5px;
+                    padding-bottom: 10px;
+                }
+                .navbar-toggler {
+                    margin-left: auto; /* Asegura que el botón se alinee a la derecha */
+                    color: $negro-fondo;
+                    margin-right: 20px;
+                } 
+                h5{
+                    padding-left: 5%;
+                    font-size: 2rem;
+                    font-weight: inherit;
+                }
+                .offcanvas-body {
+                    background: $blanco-tipog !important; 
+                    
+                    .navbar-nav {
+                    list-style: none; /* Quitar viñetas de la lista */
+                    margin: 0; /* Eliminar márgenes predeterminados */
+                    padding: 15px 10px; /* Espaciado entre links */
+                    flex-grow: 1; /* Permitir que la lista ocupe el espacio restante */
+                    text-align: center; /* Alinear elementos a la derecha */
+
+                    .nav-item {
+                        display: inline-block; /* Mostrar elementos de la lista en línea */
+                        margin-left: 20px; /* Espacio entre elementos */
+                        margin-bottom: 20px;
+                        font-size: 1.5rem;
+                        color: $negro-fondo; /* Color del texto de los enlaces */
+                        text-decoration: none; /* Eliminar subrayado de los enlaces */
+                        padding: 5px 10px; /* Espacio alrededor del texto de los enlaces */
+                        
+                        &:hover {
+                            background-color: #185e1232; /* Color de fondo al pasar el cursor */
+                            border-radius: 80px 10px;
+                            font-weight: bolder;
+                            color: #000000;
+                            
+                        }
+                    }
+                    }
                 }
             }
-        }    
-    }
-}        
+        }
+ }
+}
+

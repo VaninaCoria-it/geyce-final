@@ -1,31 +1,22 @@
 @import "var";
+
 @import "body";
+
 @import "header";
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "main-index";
 
+@import "main-nosotros";
 
-main {
-    section{ 
-        width: 100%;
-        align-items: center;
-            h2 {
-                font-family: 'Montserrat', sans-serif; 
-                font-size: 3rem;
-                color: $blanco;
-                letter-spacing: 3px;
-                font-weight: bold;
-                text-align: center;
-            p   adding: 20px;
-            
-                }
-            }
-        }
+@import "main-servicios";
 
-footer {
-    @extend nav;
-}
+@import "main-productos";
+
+@import "main-contacto";
+
+@import "footer";
+
+@import "copyright";
+
+@import "responsive";
+

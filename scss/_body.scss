@@ -1,7 +1,11 @@
-body {
-    background-color: $negro;
-    font-family:'Montserrat', sans-serif ;
-    font-weight: bold; 
-    font-size: 1.1rem;
-    color: $blanco ;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif; /* Corregido aquí */
+    background-color: $negro-fondo;
+    color: $blanco-tipog;
 }

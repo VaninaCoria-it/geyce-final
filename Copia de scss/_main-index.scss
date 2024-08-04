@@ -1,0 +1,60 @@
+main{
+    h1{
+        font-family: 'Montserrat', sans-serif !important;
+        font-size: 2.5rem;
+        padding: 50px 50px 50px 50px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: $blanco-tipog;
+        margin: 0.67em 0;
+        
+            .titulo-ppal {
+                text-align: center;
+                text-justify: auto;
+                padding: 20px;
+            }
+    }
+    .principal-index { 
+        display: flex; /* Usar flexbox para el diseño */
+        grid-template-columns: repeat(5, 1fr); /* Usa fracciones para un diseño más flexible */
+        grid-template-rows: repeat(3, auto); /* Ajusta las filas automáticamente según el contenido */
+        row-gap: 10px;
+        column-gap: 10px;
+        position: relative;
+        margin: 20px;
+        font-size: 3rem;
+
+        .foto-index{
+            border: 1px solid transparent;
+            border-radius: 15% 15px 15% 15px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: flex; /* Utiliza Flexbox para alinear los elementos */
+            align-items: center; /* Alinea verticalmente los elementos en el centro */
+            gap: 20px; /* Espacio entre la imagen y el texto */
+            flex: 1; /* Ocupa el espacio disponible en el contenedor flex */
+            position: relative; /* Permite posicionar elementos hijos */
+            
+        }
+        .texto-inferior-index {
+            font-family: 'Montserrat', sans-serif !important;
+            text-align: right;
+            margin: 5%;
+            font-size: 2rem;
+            word-wrap: break-word; /* Permite el ajuste del texto largo */ 
+            display: flex;
+            flex-direction: column; /* Coloca el contenido en una columna */
+            justify-content: center; /* Centra el contenido verticalmente */
+            align-items: flex-end; /* Alinea el contenido al final del contenedor */
+        }    
+        }
+    .logo-whatsapp{
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+    }
+}

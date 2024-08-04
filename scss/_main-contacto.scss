@@ -1,0 +1,139 @@
+main {
+    h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 2.5rem;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: $blanco-tipog;
+    margin: 0.67em 0;
+    }
+
+    .Formulario {
+        margin-top: 5px;
+
+    .container {
+
+            .input {
+                margin-bottom: 5px;
+                align-items: center;
+                border: 5px solid transparent;
+                border-radius: 7px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            label {
+                font-size: 1rem;
+                display: block;
+                margin-top: 25px;
+                letter-spacing: 1px;
+            }
+            textarea {
+                color: pink;
+                height: 400px;
+                margin-top: 50px;
+                margin-right: 40px;
+                margin-bottom: 80px;
+                padding-left: 20px;
+                padding-right:20px;
+                padding-top: 25px;
+                border: 5px solid transparent;
+                border-radius: 15px;
+                font-family:inherit;
+                align-items:flex-end;
+                &.animate__animated.animate__slideInLeft {
+                animation-duration: 1s;
+                animation-delay: 0.3s;
+                }
+            }
+            
+            .boton2 {
+                background-color: $verde-nav-footer;
+                color: $blanco-tipog;
+                padding: 1rem 3rem;
+                margin-top: 2rem;
+                margin-bottom: 7rem;
+                font-size: 1.5rem;
+                text-decoration: none;
+                font-weight: normal;
+                letter-spacing: 2px;
+                border-radius: 5rem;
+                width: 400px;
+                text-align: center;
+                border: none;
+                &:hover {
+                color: #5ecc1f;
+            }
+            }
+        
+        
+    }
+    }
+    .ubicacion {
+        display: block;
+
+        .ubiem {
+        h2 {
+            font-family: 'Montserrat', sans-serif !important;
+            font-size: 2.5rem;
+            padding: 50px 50px 50px 50px;
+            text-align: center;
+            letter-spacing: 2px;
+            font-weight: normal;
+            color: $blanco-tipog;
+        }
+        }
+        .container {
+            align-items: center;
+        &.text-center {
+            margin:100px;
+            .row {
+            .col {
+                background-color: transparent;
+            }
+            [data-aos="flip-left"] {
+                iframe {
+                    padding: auto;
+                    margin: 1rem;
+                    border: 5px solid transparent;
+                    border-radius: 15px;
+                }
+            }
+            }
+        }
+        }
+    }
+    
+    .Texto-Ubicacion {
+        font-family: 'Montserrat', sans-serif !important;
+        block-size: auto;
+        margin: 70px;
+        display: block;
+        text-align: left;
+        text-wrap: pretty;
+
+        .container-fluid {
+        p {
+            font-size: 1.5rem;
+            color: $blanco-tipog;
+
+            font-weight: 300;
+
+            strong {
+            font-weight: bolder;
+            letter-spacing: 1px;
+            font-style: oblique;
+            }
+        }
+        }
+    }
+    
+    .logo-whatsapp{
+        width: 80px;
+        height: 80px;
+        position: fixed;
+        bottom: 5%;
+        right: 5%;
+    }
+    }

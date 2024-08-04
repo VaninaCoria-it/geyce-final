@@ -1,0 +1,97 @@
+main {
+  section {
+  &:first-of-type {
+      h1 {
+          font-family: 'Montserrat', sans-serif !important;
+          font-size: 2.5rem;
+          padding: 50px 50px 50px 50px;
+          text-align: center;
+          letter-spacing: 2px;
+          font-weight: bold;
+          color: $blanco-tipog;
+          margin: 0.67em 0;
+      }
+  }
+
+  &:nth-of-type(2) {
+      #box-index {
+          position: relative;
+          display: flex; /* Usar flexbox para el diseño */
+          margin: 20px;
+          margin-right: 60px;
+          font-size: 3rem;
+          padding: 20px;
+
+          
+          
+          .Texto-Nosotros {
+              font-family: "Montserrat", sans-serif;
+              text-align: left;
+              margin: 5%;
+              font-size: 1.5rem;
+              word-wrap: break-word; /* Permite el ajuste del texto largo */ 
+              display: flex;
+              flex-direction: column; /* Coloca el contenido en una columna */
+              justify-content: center; /* Centra el contenido verticalmente */
+              align-items: flex-end; /* Alinea el contenido al final del contenedor */
+              letter-spacing: 1px;
+              text-wrap: pretty;
+      }
+      img {
+          max-width: 100%;
+          height: auto;
+          animation: flipInX 1s ease-in-out;
+      }
+      }
+
+      br {
+      margin: 0px;
+      }
+
+      .boton {
+      display: inline-block;
+      background-color: $verde-nav-footer;
+      color: #ffffff;
+      padding: 1rem 3rem;
+      margin-left: 8rem;
+      margin-bottom: 3rem;
+      font-size: 1.5rem;
+      text-decoration: none;
+      font-weight: normal;
+      letter-spacing: 2px;
+      border-radius: 5rem;
+      width: 400px;
+      text-align: center;
+      border: none;
+      
+      a {
+          color: #fff;
+          text-decoration: none;
+          font-weight: bold;
+          
+          &:hover {
+              color: #5ecc1f; /* Ejemplo de color dorado al pasar el cursor */
+              text-decoration: solid;
+          }
+      }
+      }
+
+      br {
+      margin: 10px 0;
+      }
+  }
+  }
+
+  br {
+  margin: 0px;
+  }
+
+.logo-whatsapp{
+      width: 80px;
+      height: 80px;
+      position: fixed;
+      bottom: 5%;
+      right: 5%;
+  }
+}
+

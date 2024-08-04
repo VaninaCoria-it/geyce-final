@@ -1,0 +1,74 @@
+main {
+    br {
+    margin: 10px 0;
+    }
+
+    h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: $blanco-tipog;
+    margin-bottom: 1rem;
+    }
+    
+
+    h2.catalogos {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    color: $blanco-tipog;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 5rem;
+    margin-bottom: 10px;
+    }
+
+    p.Descargar {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    color: $blanco-tipog;
+    text-align: center;
+
+    a {
+        color: $blanco-tipog;
+        text-decoration: none;
+
+        &:hover {
+        text-decoration: underline;
+        color: #5ecc1f;
+        }
+    }
+    }
+
+    section {
+    display: block;
+    margin-left: 5rem;
+    margin-right: 1rem;
+
+    img.foto-cat {
+        width: 25rem;
+        padding: 5px;
+        margin: 1%;
+        border: 1px solid transparent;
+        border-radius: 15% 15px 15% 15px;
+
+        &:first-of-type {
+        margin-left: 0;
+        }
+
+        &:last-of-type {
+        margin-right: 0;
+        }
+    }
+    }
+}
+.logo-whatsapp {
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+

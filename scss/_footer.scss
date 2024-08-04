@@ -1,0 +1,48 @@
+footer{
+        @extend .navbar;
+        background-color: $verde-nav-footer;
+        padding: 10px; // Espacio alrededor del contenido
+        font-family: 'Montserrat', sans-serif !important; // Tipografía Montserrat
+        display: flex; // Usar flexbox para el diseño
+        align-items: left; // Alinear elementos verticalmente
+        flex-direction: row; // Alinear elementos en columna
+
+        ul {
+            list-style: none; // Quitar viñetas de la lista
+            padding: 20px; // Espaciado entre links
+            flex-grow: 1; // Permitir que la lista ocupe el espacio restante
+            text-align: left; // Alinear elementos a la izquierda
+            line-height: 2;
+    
+            li {
+                svg {
+                    width: 24px;
+                    height: 24px;
+                    color: $blanco-tipog;
+                    fill: none;
+    
+                    path {
+                        stroke: currentColor;
+                        stroke-width: 1.5;
+                        stroke-linejoin: round;
+                    }
+                }
+    
+                a {
+                    color: inherit; // Hereda el color del elemento padre
+                    text-decoration: none; // Elimina el subrayado
+    
+                    &:hover {
+                        color: #5ecc1f; // Ejemplo de color dorado al pasar el cursor
+                        text-decoration: solid;
+                    }
+                }
+            }
+        }
+        .logo-footer {
+            width: 80px; // Ancho del logo
+            text-align: end;
+            padding-right: 20px;
+            align-self: self-end; // Centrar horizontalmente
+        }
+    }
